@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="Español">
+    <head>
+        <title>Formulari</title>
+        <link href="Images/itb.jpeg" rel="icon" type="image/x-icon"/> 
+    </head>
+    <body>
+        <form action="" enctype="multipart/form-data" method="post">
+            <fieldset>
+                <legend>Ficha de la pelicula</legend>
+                <label for="titulo">Titulo:</label>
+                <input type="Text" name="titulo"><br>
+                <label for="director">Director</label>
+                <input type="Text" name=""titulo"><br>
+                <label for="fechaEstreno">Fecha de estreno</label> 
+                <input type="date" name="fechaEstreno"><br>
+                <label for="poster">Poster></label>
+                <input type="file" name="poster"><br>
+                <label for="Version">Version</label><br>
+                <input type="checkbox" name="IMAXCheck" checked>
+                <label for="IMAXCheck">IMAX</label>
+                <input type="checkbox" name="3DCheck">
+                <label for="3DCheck">3D</label>
+                <input type="checkbox" name="FullHDCheck">
+                <label for="FullHDCheck">Full HD</label><br>
+                <label for="clasificacion">clasificacion</label><br>
+                <input type="radio" name="clasificacion">
+                <label for="TP">TP</label>
+                <input type="radio" name="clasificacion" checked>
+                <label for="12">+12</label>
+                <input type="radio" name="clasificacion">
+                <label for="15">+15</label>
+                <input type="radio" name="clasificacion">
+                <label for="18">+18</label><br>
+        </fieldset>
+        <fieldset>
+            <Legend>Ficha de proyeccion</Legend>
+            <label for="Sala">Sala:</label>
+            <select name="idiomas">
+                <option value="Ingles">cine de barrio</option>
+                <option value="Espanyol">Cines Yelmo</option>
+                <option value="Italiano">Cinesa</option>
+                <option value="Aleman">Cines Full HD</option>
+            </select><br>
+            <textarea rows="8" cols="60" placeholder="Inserte una breve sinopsis"></textarea><br> 
+            <select name="idiomas">
+                <option value="Ingles">Inglés</option>
+                <option value="Espanyol">Español</option>
+                <option value="Italiano">Italiano</option>
+                <option value="Aleman">Aleman</option>
+            </select><br>
+            <input type="time"><br>
+            <label for="diasProyeccion">Dias de proyeccion</label><br>
+            <select multiple name="dias" size="4">
+                <option value="lunes">Lunes</option>
+                <option value="martes">Martes</option>
+                <option value="miercoles">Miercoles</option>
+                <option value="jueves">Jueves</option>
+                <option value="viernes">Viernes</option>
+                <option value="sabado">Sabado</option>
+                <option value="domingo">Domingo</option>
+            </select><br>
+            <label for="color">Elige un color de fondo</label>
+            <input type="color" name="color"><br>
+            <label for="puntuacion">Puntuacion del publico</label>
+            <progress value="73" max="100"></progress>
+        </fieldset>
+
+
+        </form>
+    </body>
+    <aside></aside>
+    <footer></footer>
+</html>
